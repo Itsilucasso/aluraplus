@@ -34,6 +34,8 @@ body {
     grid-template-columns: 50% 50%;
 }
 
+
+
 .container__caixa {
     margin: 0 6em;
 }
@@ -53,11 +55,13 @@ body {
     text-decoration: none;
     text-align: center;
     margin-bottom: 1em;
+    transition: transform 0.5s ease;
 }
 
 .container__botao:hover {
     color: var(--cor-de-fundo);
     background-color:var(--cor-hover-botoes);
+    transform: scale(1.1);
 }
 
 .botao__secundario {
@@ -73,6 +77,11 @@ body {
 
 .container__imagem {
     margin: 1em 0 2em 0;
+    transition: transform 0.5s ease;
+}
+
+.container__imagem:hover {
+    transform: scale(1.1);
 }
 
 .secundario {
@@ -80,8 +89,29 @@ body {
     margin: 0 10em;
 }
 
+.secundario__imagens {
+    position: relative;
+    width: fit-content;
+}
+
 .secundario__imagem {
     width: 90%;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.5s ease;
+}
+
+.imagem__celular {
+    width: auto;
+    position: absolute;
+    top: 250px;
+    left: 15px;
+    z-index: 2;
+
+}
+
+.secundario__imagem:hover {
+    transform: scale(1.20);
 }
 
 .descricao__titulo {
@@ -98,6 +128,24 @@ body {
 .secundario__botao {
     display: inline-block;
     margin-top: 1em;
+}
+
+.imagem__alura {
+    position: relative;
+    z-index: 1;
+}
+
+.imagem__alura:hover {
+    z-index: 3;
+    transform: scale(1.1);
+    transition: transform 0.5s ease, z-index 0s;
+}
+
+.imagem__idiomas {
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    z-index: 2;
 }
 
 .container__descricao {
@@ -139,6 +187,11 @@ body {
 
 .rodape__logo {
     margin: 0 0 3em;
+    transition: transform 0.5s ease-in;
+}
+
+.rodape__logo:hover {
+    transform: scale(1.1);
 }
 
 .rodape__lista {
