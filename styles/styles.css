@@ -69,6 +69,12 @@ body {
     border: 2px solid var(--branco-principal);
 }
 
+.botao__secundario:hover {
+    background-color: var(--cinza-secundario);
+    color: var(--cor-de-fundo);
+}
+
+
 .container__aviso {
     font-family: var(--fonte-principal);
     font-size: 12px;
