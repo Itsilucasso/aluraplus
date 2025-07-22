@@ -34,8 +34,6 @@ body {
     grid-template-columns: 50% 50%;
 }
 
-
-
 .container__caixa {
     margin: 0 6em;
 }
@@ -73,7 +71,6 @@ body {
     background-color: var(--cinza-secundario);
     color: var(--cor-de-fundo);
 }
-
 
 .container__aviso {
     font-family: var(--fonte-principal);
