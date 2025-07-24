@@ -43,6 +43,11 @@ body {
     font-weight: 700;
 }
 
+.destaque__lingua {
+    color: #EC2F46;
+    font-weight: 300;
+} 
+
 .container__botao {
     background-color: var(--botao-azul);
     padding: 1em;
